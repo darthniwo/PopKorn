@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import "magnific-popup.css";
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;-webkit-font-smoothing:antialiased;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}audio:not([controls]){display:none;}[hidden]{display:none;}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}input,textarea,select{font:inherit;}ul{list-style:none;}input:focus,textarea:focus,select:focus{outline: none;}textarea{resize:none;overflow:auto; vertical-align:top;}input,textarea{border:0 none; padding:0;margin:0;}img{border:0;-ms-interpolation-mode:bicubic;} button, input{line-height:normal;*overflow:visible;} button, html input[type="button"], input[type="reset"], input[type="submit"]{cursor:pointer; -webkit-appearance:none; background:none;}input[type="checkbox"], input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner, input::-moz-focus-inner{border:0;padding:0;}select{cursor:pointer;}
+html, body{
+  background-color:#FBF5DF;
+}
+
+.wrapper{
+  max-width:950px;
+  margin:0 auto;
+  padding:0 5px;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+ 
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.hidden-block {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+} 
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.display-block{
+  display: block;
+}
+
+ 
+
+.cf {
+    *zoom: 1;
+}
+ 
+.clear{clear:left;}
+ 
+.left{float:left !important;}
+.right{float:right !important;}
+.center{
+  float:none !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+ 
+.alignleft{text-align:left !important;}
+.alignright{text-align:right !important;}
+.aligncenter{text-align:center !important;}
+
+.media {
+  display: block;
+}
+.media .img {
+  float: left;
+  margin-right: 10px;
+}
+.media .img.right {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.media .body {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.main-header{
+  background-color:#FFF;
+}
+
+.main-header .nav{
+  float:right;
+}
+
+.main-header .nav li{
+  float:left;
+}
+
+.main-header a{
+  color:#D3402C;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.posters li{
+  float:left;
+  max-height:210px;
+  max-width:148px;
+  margin:0 10px 15px 0;
+  -webkit-box-shadow: 1px 0px 0px 1px #D3402C, 2px -2px 0px 1px #D3402C;
+  -moz-box-shadow: 1px 0px 0px 1px #D3402C, 2px -2px 0px 1px #D3402C;
+  box-shadow: 1px 0px 0px 1px #D3402C, 2px -2px 0px 1px #D3402C;
+  border-radius:2px;
+}
+
+.posters li img{
+  border-radius:2px;
+  max-height:100%;
+  width:100%;
+}
+
+.movie-block{
+  clear:left;
+  margin-bottom:35px;
+}
+
+.movie-block h2{
+  border-bottom:solid #CCC 1px;
+  color:#D4412D;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom:10px;
+  margin-bottom:15px;
+}
+
+
+.mfp-content{
+  background-color:#FFF;
+  max-width: 710px;
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
